@@ -98,7 +98,6 @@
                     } else {
                         val.alt_promo_image_url = "//kodekloud.s3.amazonaws.com/sites/553912c46e6f645bc2000000/d9b90a9aff278549145256be3534ff76/default.jpg"
                     }
-                    
                     } else {
                         val.alt_promo_image_url = getImageURL(val.event_image_url);
                     }
@@ -110,14 +109,10 @@
                     if (val.description.length > 110) {
                        val.description =  val.description.substring(0,100)+'...';
                     } 
-                        
                 }
-                
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
-    
             });
-            
             $(container).show();
             $(container).html(item_rendered.join(''));
         };
