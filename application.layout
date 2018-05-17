@@ -200,7 +200,7 @@
             color: #999999 !important;
         }
         .site-map-section a:hover {}
-        .footer-text {
+        .footer-text, .footer-text a {
             color: #FFF;
         }
         @media (max-width: 767px){
