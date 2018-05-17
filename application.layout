@@ -160,6 +160,7 @@
             font-size: 15px !important;
             line-height: 20px !important;
             margin-bottom: 0 !important;
+            text-transform: initial;
         }
         /*social media box color*/
         #social_media_wrapper{
