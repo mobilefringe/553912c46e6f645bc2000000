@@ -31,13 +31,13 @@
                                 <br>{{dates}}
                             </p>
                             <p id="desc">{{description}}</p>
-                            <a href="../promotions/{{slug}}" class="btn btn-primary pull-left">Read More</a> </div>
+                            <a href="../promotions/{{slug}}" class="btn btn-primary pull-left" aria-label="Promo Details: {{name}}">Promo Details</a>
                         </div>
                     </div>
                 </script>
             </div>  
             <section class="service_teasers" style="display:none" id="no_event_container">
-                <h2>There are no promotions at this time, please check back later.</h2>
+                <h3>There are no promotions at this time, please check back later.</h3>
             </section>
         </div>
         <div class="right_column">
@@ -49,8 +49,6 @@
                     <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
                 </script>
             </div>
-            
-            
         </div>
     </div>
 </div>
