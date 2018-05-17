@@ -39,7 +39,7 @@
                     <!--<br><a href="mailto:banderson@bentallkennedy.com">banderson@bentallkennedy.com</a>-->
                     <!--<br>*Sales Representative</p>-->
                   
-                <div id="mm_page_content"></div>
+                <div id="mm_page_content_mobile"></div>
             </div>
             <div id="send_contact_success" class="alert alert-success" role="alert" style="display:none">
                 <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
