@@ -201,6 +201,7 @@
         }
         .site-map-section a:hover {}
         .footer-text, .footer-text a, .footer-text a:hover {
+            background: unset;
             color: #FFF;
         }
         .accessible {
