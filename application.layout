@@ -203,6 +203,9 @@
         .footer-text, .footer-text a, .footer-text a:hover {
             color: #FFF;
         }
+        .accessible {
+            color: red;
+        }
         @media (max-width: 767px){
             .main_window {
                 width: 100%;
