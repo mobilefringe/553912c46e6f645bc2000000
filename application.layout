@@ -200,6 +200,9 @@
             color: #999999 !important;
         }
         .site-map-section a:hover {}
+        .footer-text {
+            color: #FFF;
+        }
         @media (max-width: 767px){
             .main_window {
                 width: 100%;
