@@ -204,7 +204,7 @@
             color: #FFF;
         }
         .accessible {
-            color: red;
+            color: #FFF;
         }
         @media (max-width: 767px){
             .main_window {
