@@ -26,18 +26,17 @@
                             <p class="promo_header right_column_header">{{name}}</p>
                             <p class="directory_content promo_date">{{dates}}</p>
                             <p>{{description}}</p>
-                            <a href="../events/{{slug}}" class="btn btn-primary pull-left" aria-label="Event Details: {{name}}"
->View Event Details</a>
+                            <a href="../events/{{slug}}" class="btn btn-primary pull-left" aria-label="Event Details: {{name}}">View Event Details</a>
                         </div>
                     </div>
                 </script>
             </div>  
             <section class="service_teasers" style="display:none" id="no_event_container">
-                <h2>There are no events at this time, please check back later.</h2>
+                <h3>There are no events at this time, please check back later.</h3>
             </section>
         </div>
         <div class="right_column">
-            <p class="right_column_header">centre information</p>
+            <p class="right_column_header">Centre Information</p>
             <div id="centre_info_container">
                 <script id="centre_info_template" type="x-tmpl-mustache/text">
                     <p class="directory_content">{{name}}</p>
@@ -45,8 +44,6 @@
                     <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
                 </script>
             </div>
-            
-            
         </div>
     </div>
 </div>
