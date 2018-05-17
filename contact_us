@@ -173,6 +173,7 @@
             var pages_json = prefix + "/pages/alpinecentre-contact-us.json"
             $.getJSON(pages_json).done(function(data) {
                 $('#mm_page_content').html(data.body);
+                $('#mm_page_content_mobile').html(data.body);
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
                     $("#404_msg").fadeIn("fast");
