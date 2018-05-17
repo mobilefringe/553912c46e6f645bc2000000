@@ -204,6 +204,9 @@
             background: unset;
             color: #FFF;
         }
+        .copyright {
+            background-color: rgba(0, 0, 0, 1);
+        }
         .accessible {
             color: #FFF;
         }
