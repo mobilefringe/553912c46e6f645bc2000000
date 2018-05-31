@@ -11,7 +11,7 @@
     </div>
     <div class="inside_page_content">
         <div class="left_column">
-            <img class="inside_banner_image" alt="banner" src="http://kodekloud.s3.amazonaws.com/sites/553912c46e6f645bc2000000/d9b90a9aff278549145256be3534ff76/1.png"/>
+            <img class="inside_banner_image" alt="banner" src="//codecloud.cdn.speedyrails.net/sites/59aed4416e6f644a58390000/image/png/1527776474000/1.png"/>
             <!--<a href="/map"><p class="right_column_header" id="mobile_centre_map_link" style="display:none">centre map</p></a><br>-->
             <div class="mobile_cat_list" style="display:none">
                 <p class="right_column_header">categories</p>
